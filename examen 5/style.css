@@ -1,0 +1,92 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  background-color: aquamarine;
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+header {
+  text-align: center;
+}
+
+.imagenes {
+  width: 15px;
+  height: 15px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  float: right;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0px;
+  text-align: center;
+}
+
+nav li {
+  border: 1px solid red;
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+nav li:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+nav li a:hover{color: white;}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover{color: blue;}
